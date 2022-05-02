@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#toogle").click(function(){
+    $("#p").fadeToggle(1000);
+  });
+  $("animate").click(function(){
+    $("div").animate({left: '100px'});
+  });
+});
+</script>
+</head>
+<body>
+
+<p id="p"><img src="king (-_-).jpg"></p>
+
+<button id="toogle">toggle</button>
+
+
+<div id="p1"><img src="king (-_-).jpg"></div>
+
+<button id="animate">toggle</button>
+
+
+
+</body>
+</html>
+<style type="text/css">
+
+</style>
